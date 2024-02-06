@@ -28,6 +28,23 @@ nav ul li {
   margin: 0 23px;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+nav ul li a:hover {
+  color: rgb(111, 111, 210);
+  font-size: 1.1rem;
+}
+
+main hr {
+  border: 0;
+  background: rgb(143, 143, 196);
+  height: 2px;
+  margin: 13px 73px;
+}
+
 .left {
   font-size: 2rem;
 }
@@ -53,4 +70,14 @@ nav ul li {
 
 .purple {
   color: rgb(43, 62, 148);
+}
+
+#element {
+  color: rgb(43, 62, 148);
+}
+
+.secondSection h1 {
+  color: #fefefe;
+  font-size: 2rem;
+  margin: 0 83px;
 }
