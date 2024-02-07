@@ -81,3 +81,71 @@ main hr {
   font-size: 2rem;
   margin: 0 83px;
 }
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px;
+  gap: 23px;
+}
+
+.container .box {
+  width: 33%;
+  height: 95%;
+  border: 1px solid lavender;
+}
+
+.container .edu {
+  padding: 29px;
+}
+
+.edu h3 {
+  color: #fefefe;
+  margin: 5px 0;
+}
+
+.edu .line {
+  width: 40px;
+  height: 1px;
+  background: #fefefe;
+  margin-bottom: 23px;
+}
+
+.edu .degree {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9c8585;
+}
+
+.edu span {
+  color: #746969;
+}
+
+.edu .desc {
+  margin: 15px 0;
+  color: #9c8585;
+}
+
+.container .details {
+  padding: 29px;
+}
+
+.details h3 {
+  color: #fefefe;
+  margin: 5px 0;
+}
+
+.details .line {
+  width: 40px;
+  height: 1px;
+  background: #fefefe;
+  margin-bottom: 23px;
+}
+
+.details .degree {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9c8585;
+  margin: 15px 0;
+}
