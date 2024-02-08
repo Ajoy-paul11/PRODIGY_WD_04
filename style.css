@@ -59,6 +59,16 @@ main hr {
 .firstSection > div {
   width: 40%;
 }
+
+.firstSection button {
+  padding: 12px 16px;
+  background-color: rgb(18, 38, 78);
+  color: #fefefe;
+  margin: 23px 100px;
+  border: 2px solid;
+  font-size: 20px;
+  border-radius: 13px;
+}
 .leftSection {
   font-size: 2.9rem;
   color: #fefefe;
@@ -148,4 +158,61 @@ main hr {
   font-weight: 500;
   color: #9c8585;
   margin: 15px 0;
+}
+
+.details #social img {
+  margin: 34px 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.container .skills {
+  padding: 29px;
+}
+
+.skills h3 {
+  color: #fefefe;
+  margin: 5px 0;
+}
+
+.skills .line {
+  width: 40px;
+  height: 1px;
+  background: #fefefe;
+  margin-bottom: 23px;
+}
+
+.skills .degree {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9c8585;
+  margin: 15px 0;
+}
+
+.skills .desc {
+  margin: 15px 0;
+  color: #9c8585;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: lavender;
+  background-color: #2e2a3c;
+  margin-top: 60px;
+  align-items: center;
+  padding: 15px 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fefefe;
 }
