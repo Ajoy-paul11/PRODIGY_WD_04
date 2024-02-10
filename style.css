@@ -216,3 +216,43 @@ footer ul li a {
   text-decoration: none;
   color: #fefefe;
 }
+
+@media only screen and (max-width: 1411px) {
+  .container .edu,
+  .container .details,
+  .container .skills {
+    padding: 10px;
+  }
+
+  .edu .line,
+  .details .line,
+  .skills .line {
+    margin-bottom: 0;
+  }
+
+  .edu .degree,
+  .details .degree,
+  .skills .degree {
+    font-size: 15px;
+    color: #fefefe;
+  }
+
+  .edu .desc,
+  .skills .desc {
+    margin: 6px 0;
+  }
+
+  .skills .desc {
+    font-size: 14px;
+  }
+
+  .details #social img {
+    margin: 34px 10px;
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .leftSection {
+    font-size: 2.35rem;
+  }
+}
