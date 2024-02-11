@@ -294,9 +294,13 @@ footer ul li a {
     width: 45px;
     height: 45px;
   }
+
+  .details #social img {
+    margin: 0px 10px;
+  }
 }
 
-@media only screen and (max-width: 755px) {
+@media only screen and (max-width: 775px) {
   .edu h3,
   .details h3,
   .skills h3 {
@@ -317,5 +321,108 @@ footer ul li a {
 
   main hr {
     margin: 6px 73px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 775px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a:hover {
+    font-size: 0.5rem;
+  }
+
+  .left {
+    font-size: 1.3rem;
+  }
+
+  .firstSection {
+    margin: 50px 0;
+  }
+
+  .leftSection {
+    font-size: 1.4rem;
+    padding: 0 15px;
+  }
+
+  .firstSection > div {
+    width: 50%;
+  }
+
+  .firstSection button {
+    padding: 5px 5px;
+    margin: 9px 8px;
+    font-size: 12px;
+    border-radius: 9px;
+  }
+
+  .secondSection h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .secondSection {
+    margin-bottom: 150px;
+  }
+  .container {
+    display: inline-block;
+  }
+
+  .container .box {
+    width: 95%;
+    margin: 12px 0;
+    text-align: center;
+    height: 70%;
+  }
+
+  .edu .line,
+  .details .line,
+  .skills .line {
+    margin-left: 45%;
+  }
+
+  .edu .degree,
+  .details .degree,
+  .skills .degree {
+    font-size: 14px;
+    color: #fefefe;
+  }
+
+  .edu .desc,
+  .skills .desc {
+    margin: 6px 0;
+    font-size: 12px;
+  }
+
+  footer {
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    flex-direction: column-reverse;
+  }
+
+  footer ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .details #social img {
+    margin: 0px 10px;
   }
 }
